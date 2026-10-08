@@ -1,0 +1,36 @@
+.news-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.news-item {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.news-item__image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.news-item__title {
+    margin: 0 0 0.5rem;
+}
+
+.news-item__meta {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+
+.news-item__more {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.news-list__empty,
+.news-list__footer {
+    color: #6b7280;
+}
